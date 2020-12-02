@@ -20,7 +20,7 @@ describe('RandumNumber', () => {
 });
 
 describe('RandumNumber', () => {
-    test('If button is clicked, randomNumber data value should be 200 and 300', () => {
+    test('If button is clicked, randomNumber data value should be 200 and 300', async () => {
         const wrapper = mount(RandomNumber, {
             propsData: {
                 min: 200, 
